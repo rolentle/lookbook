@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+fetcher = PhotoFetcher.new
+fetcher.fetch_user_id('bonobos')
+fetcher.fetch_photos
+fetcher.save_photos

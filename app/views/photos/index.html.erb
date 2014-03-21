@@ -1,0 +1,8 @@
+<h3>Most Recent</h3>
+<%= image_tag @photos.first.standard_resolution_url, width: 612, height: 612 %>
+<br />
+
+<p>Other Photos</p>
+<% @photos[1..-1].each do |photo| %>
+  <%= image_tag photo.thumbnail_url %><br />
+<% end %>

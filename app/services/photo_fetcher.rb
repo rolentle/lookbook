@@ -27,7 +27,7 @@ class PhotoFetcher
       { taken_at: photo['created_time'],
         low_resolution_url: photo['images']['low_resolution']['url'],
         thumbnail_url: photo['images']['thumbnail']['url'],
-        standard_resolution_url: photo['images']['thumbnail']['url']
+        standard_resolution_url: photo['images']['standard_resolution']['url']
       }
     end
   end
