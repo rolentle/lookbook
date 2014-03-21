@@ -1,0 +1,214 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/search.json?client_id=f9467afbe845486f994bae0fd2818f5c&q=bonobos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Instagram Ruby Gem 0.10.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Language:
+      - en
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 20 Mar 2014 15:55:06 GMT
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - nginx
+      Set-Cookie:
+      - ccode=US; Path=/
+      - csrftoken=496304b01a989a368ed96f8df8991fa8; expires=Thu, 19-Mar-2015 15:55:06
+        GMT; Max-Age=31449600; Path=/
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4994'
+      Content-Length:
+      - '12815'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "{\n  \"meta\": {\n    \"code\": 200\n  },\n  \"data\": [\n    {\n      \"username\":
+        \"bonobos\",\n      \"bio\": \"#TheNewDressCode The look of of a custom shirt.
+        The ease of off-the-rack (or off-the-Internet).\",\n      \"website\": \"http://bno.bs/bnbscode\",\n
+        \     \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_8194723_75sq_1367952372.jpg\",\n
+        \     \"full_name\": \"bonobos\",\n      \"id\": \"8194723\"\n    },\n    {\n
+        \     \"username\": \"bonobosninjas\",\n      \"bio\": \"\",\n      \"website\":
+        \"http://www.bonobos.com/\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_22627213_75sq_1328658559.jpg\",\n
+        \     \"full_name\": \"Bonobos Ninjas\",\n      \"id\": \"22627213\"\n    },\n
+        \   {\n      \"username\": \"bonobosscl\",\n      \"bio\": \"Marca Chilena,
+        lentes, relojes y accesorios fabricados a mano en madera.\",\n      \"website\":
+        \"http://www.bonoboss.cl\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_301729773_75sq_1368193128.jpg\",\n
+        \     \"full_name\": \"Bonoboss\",\n      \"id\": \"301729773\"\n    },\n
+        \   {\n      \"username\": \"bonobosguides\",\n      \"bio\": \"\",\n      \"website\":
+        \"http://bonobos.com/guideshop\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_227849294_75sq_1362537216.jpg\",\n
+        \     \"full_name\": \"bonobosguides\",\n      \"id\": \"227849294\"\n    },\n
+        \   {\n      \"username\": \"bonobosaremonks\",\n      \"bio\": \"Isabelle
+        Wong\",\n      \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_1610100_75sq_1391227398.jpg\",\n
+        \     \"full_name\": \"bonobosaremonks\",\n      \"id\": \"1610100\"\n    },\n
+        \   {\n      \"username\": \"bonobostar\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_383845861_75sq_1391738809.jpg\",\n
+        \     \"full_name\": \"Chantelle Zarafa\",\n      \"id\": \"383845861\"\n
+        \   },\n    {\n      \"username\": \"bonobos90\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_238736632_75sq_1350572378.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"238736632\"\n    },\n    {\n      \"username\":
+        \"bonoboswaggerofficiel\",\n      \"bio\": \"URBANWEAR \U0001F455\U0001F45ALIFESTYLE
+        \U0001F60EAND MORE \U0001F6BB twitter : @BonoboSwagger\\nFacebook : BONOBO-SWAGGER\",\n
+        \     \"website\": \"http://www.bonoboswagger.com\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_52857227_75sq_1392068639.jpg\",\n
+        \     \"full_name\": \"BONOBO SWAGGER\",\n      \"id\": \"52857227\"\n    },\n
+        \   {\n      \"username\": \"bonoboshka\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_412229602_75sq_1370817227.jpg\",\n
+        \     \"full_name\": \"Irina Serbinova\",\n      \"id\": \"412229602\"\n    },\n
+        \   {\n      \"username\": \"bonobos94\",\n      \"bio\": \"Australian ^_^\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_298306987_75sq_1380967169.jpg\",\n
+        \     \"full_name\": \"Shelly Barnett\",\n      \"id\": \"298306987\"\n    },\n
+        \   {\n      \"username\": \"bonoboss92i7\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_592969590_75sq_1381039495.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"592969590\"\n    },\n    {\n      \"username\":
+        \"bonobosarah\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_211743949_75sq_1345658220.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"211743949\"\n    },\n    {\n      \"username\":
+        \"bonobosash\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_289401625_75sq_1380234085.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"289401625\"\n    },\n    {\n      \"username\":
+        \"bonobostarr\",\n      \"bio\": \"(-)> California resident originally from
+        jersey with my own pose. My favourite color is \U0001F34A \U0001F53C9-25-05
+        i have a bonobo obsession and I \U0001F497to take pictures\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_498820530_75sq_1377383329.jpg\",\n
+        \     \"full_name\": \"BonoboLove\U0001F47E\",\n      \"id\": \"498820530\"\n
+        \   },\n    {\n      \"username\": \"bonobosnick\",\n      \"bio\": \"Football.Chicago
+        Bears. Alshon Jeffery. Texas Longhorns. Well dressed man.\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_814698402_75sq_1392598361.jpg\",\n
+        \     \"full_name\": \"Nicholas Sosulski\",\n      \"id\": \"814698402\"\n
+        \   },\n    {\n      \"username\": \"bonoboslr\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_12548660_75sq_1322604982.jpg\",\n
+        \     \"full_name\": \"bonoboslr\",\n      \"id\": \"12548660\"\n    },\n
+        \   {\n      \"username\": \"innasafi\",\n      \"bio\": \"☽ ☽ ☽     sugar
+        rhyme       ☽  ☽ ☽\",\n      \"website\": \"http://vk.com/innasafi\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_269404586_75sq_1392634124.jpg\",\n
+        \     \"full_name\": \"BONOBOSAF\",\n      \"id\": \"269404586\"\n    },\n
+        \   {\n      \"username\": \"bonobosinthegreen\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_317240810_75sq_1362109753.jpg\",\n
+        \     \"full_name\": \"Rayd Abu-ayyash\",\n      \"id\": \"317240810\"\n    },\n
+        \   {\n      \"username\": \"bonobos_party\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_1118564068_75sq_1393174825.jpg\",\n
+        \     \"full_name\": \"Ruben Vegas Cañadilla\",\n      \"id\": \"1118564068\"\n
+        \   },\n    {\n      \"username\": \"bonobos311\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_340495073_75sq_1375383602.jpg\",\n
+        \     \"full_name\": \"Amy Schultz\",\n      \"id\": \"340495073\"\n    },\n
+        \   {\n      \"username\": \"bonobos0998\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_243400640_75sq_1352837332.jpg\",\n
+        \     \"full_name\": \"Louise Clerc\",\n      \"id\": \"243400640\"\n    },\n
+        \   {\n      \"username\": \"bonoboshca\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_307768891_75sq_1376229195.jpg\",\n
+        \     \"full_name\": \"Liza\",\n      \"id\": \"307768891\"\n    },\n    {\n
+        \     \"username\": \"bonobossmx\",\n      \"bio\": \"Bonoboss es una marca
+        de productos hechos de madera. Contamos con Lentes de Sol, Relojes y Cubiertas
+        para tu celular.             Twitter: @BonobossMx\",\n      \"website\": \"http://www.bonobossmx.com\",\n
+        \     \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_627975833_75sq_1382662677.jpg\",\n
+        \     \"full_name\": \"BonobossMx\",\n      \"id\": \"627975833\"\n    },\n
+        \   {\n      \"username\": \"bonobosdu38\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_961740548_75sq_1393156138.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"961740548\"\n    },\n    {\n      \"username\":
+        \"bonobosink\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"Walt\",\n      \"id\": \"743970401\"\n    },\n    {\n      \"username\":
+        \"bonobose\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_827707970_75sq_1394897876.jpg\",\n
+        \     \"full_name\": \"Kyle\",\n      \"id\": \"827707970\"\n    },\n    {\n
+        \     \"username\": \"bonobostech\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"Neil Shah\",\n      \"id\": \"25672288\"\n    },\n
+        \   {\n      \"username\": \"bonoboscareers\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"Bonobos Careers\",\n      \"id\": \"1156075739\"\n
+        \   },\n    {\n      \"username\": \"bonobos25\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"Bonobos\",\n      \"id\": \"377272250\"\n    },\n    {\n
+        \     \"username\": \"bonobos999\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_630930446_75sq_1382797514.jpg\",\n
+        \     \"full_name\": \"Bonobos\",\n      \"id\": \"630930446\"\n    },\n    {\n
+        \     \"username\": \"sprapes\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_630139622_75sq_1382765705.jpg\",\n
+        \     \"full_name\": \"Bonobos\",\n      \"id\": \"630139622\"\n    },\n    {\n
+        \     \"username\": \"yokang92\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_801675555_75sq_1387072049.jpg\",\n
+        \     \"full_name\": \"Bonobos Gibon\",\n      \"id\": \"801675555\"\n    },\n
+        \   {\n      \"username\": \"bonoboevents\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"Bonobos Events\",\n      \"id\": \"308202048\"\n    },\n
+        \   {\n      \"username\": \"bonoboss92i\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_340709324_75sq_1364783602.jpg\",\n
+        \     \"full_name\": \"Mendy\",\n      \"id\": \"340709324\"\n    },\n    {\n
+        \     \"username\": \"bonoboss\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/profile_345992738_75sq_1365294529.jpg\",\n
+        \     \"full_name\": \"Pablo Emilio Garcia Cortes\",\n      \"id\": \"345992738\"\n
+        \   },\n    {\n      \"username\": \"bonobos18\",\n      \"bio\": \"\",\n
+        \     \"website\": \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"chihiro\",\n      \"id\": \"427079494\"\n    },\n    {\n
+        \     \"username\": \"bonoboshare\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"Bonobo\",\n      \"id\": \"868301354\"\n    },\n    {\n
+        \     \"username\": \"bonoboshiva\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"211725278\"\n    },\n    {\n      \"username\":
+        \"bonobos_headshots\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"193094999\"\n    },\n    {\n      \"username\": \"bonoboss66\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_36947833_75sq_1374950173.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"36947833\"\n    },\n    {\n      \"username\":
+        \"bonoboss4\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_646402845_75sq_1383604187.jpg\",\n
+        \     \"full_name\": \"Vincent\",\n      \"id\": \"646402845\"\n    },\n    {\n
+        \     \"username\": \"bonobossman\",\n      \"bio\": \"\",\n      \"website\":
+        \"\",\n      \"profile_picture\": \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"699984611\"\n    },\n    {\n      \"username\":
+        \"bonobos11\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"731827630\"\n    },\n    {\n      \"username\": \"bonobosevents\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"308626932\"\n    },\n    {\n      \"username\": \"bonobosan\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"boris\",\n      \"id\": \"264251533\"\n    },\n    {\n      \"username\":
+        \"bonobosgirl\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"38587075\"\n    },\n    {\n      \"username\": \"bonobosatwork\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"1176311304\"\n    },\n    {\n      \"username\": \"bonobospopup\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/profile_244962092_75sq_1351635911.jpg\",\n
+        \     \"full_name\": \"\",\n      \"id\": \"244962092\"\n    },\n    {\n      \"username\":
+        \"bonobos23\",\n      \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"\",\n      \"id\": \"368042353\"\n    },\n    {\n      \"username\": \"bonoboss69\",\n
+        \     \"bio\": \"\",\n      \"website\": \"\",\n      \"profile_picture\":
+        \"http://images.ak.instagram.com/profiles/anonymousUser.jpg\",\n      \"full_name\":
+        \"A.Grandberry\",\n      \"id\": \"541392383\"\n    }\n  ]\n}"
+    http_version: 
+  recorded_at: Thu, 20 Mar 2014 15:55:07 GMT
+recorded_with: VCR 2.8.0
