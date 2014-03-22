@@ -1,24 +1,21 @@
 <div class='row'>
-  <div class='large-12 columns'>
-    <h3>Most Recent</h3>
-  </div>
-</div>
-
-<div class='row'>
-  <div class='large-12 columns'>
-    <%= image_tag @photos.first.standard_resolution_url, width: 612, height: 612, class: 'hero' %>
-  </div>
-</div>
-
-<div class='row'>
-  <div class='large-12 columns'>
-    <h4>Other Photos</h4>
+  <div class='large-8 columns'>
+  <ul data-orbit>
+    <% @photos.each do |photo| %>
+      <li data-orbit-slide="<%="slide-#{photo.id}" %>">
+      <div class='slide'><%= image_tag photo.standard_resolution_url, width: 612, height: 612 %>
+      </div>
+      </li>
+    <% end %>
+  <ul/>
   </div>
 </div>
 <div class='row'>
-<ul class='small-block-grid-5'>
-  <% @photos[1..-1].each do |photo| %>
-    <li><%= image_tag photo.thumbnail_url %></li>
-  <% end %>
-<ul/>
+  <div class='large-12 columns'>
+    <ul class='small-block-grid-5'>
+      <% @photos[1..-1].each do |photo| %>
+        <li><a class='th' data-orbit-link="<%= "slide-#{photo.id}" %>"><%= image_tag photo.thumbnail_url %></a></li>
+      <% end %>
+      <ul/>
+  </div>
 </div>

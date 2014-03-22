@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "LookBook" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -12,6 +12,17 @@
   </head>
 
   <body>
+  <div class="fixed">
+    <nav class="top-bar" data-topbar>
+      <div class='large-2 columns'>
+        <ul class="title-area">
+          <li class="name">
+          <h1><a href="#">LookBook</a></h1>
+          </li>
+        </ul>
+    </div>
+    </nav>
+  </div>
 
     <%= yield %>
     <%= javascript_include_tag "application" %>
