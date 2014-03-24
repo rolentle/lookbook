@@ -6,6 +6,9 @@ ul {
   list-style-type: none;
 }
 
+.tiles { overflow-y: hidden; }
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
 .slide {
   padding: 0px;
 }

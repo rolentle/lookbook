@@ -1,0 +1,13 @@
+<div class='row'>
+  <div class='large-8 columns'>
+    <ul data-orbit>
+      <% photos.each do |photo| %>
+        <li data-orbit-slide="<%="slide-#{photo.id}" %>">
+        <div class='slide'>
+          <%= image_tag photo.standard_resolution_url, width: 612, height: 612 %>
+        </div>
+        </li>
+      <% end %>
+    <ul/>
+  </div>
+</div>

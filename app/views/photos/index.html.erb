@@ -1,39 +1,9 @@
-<div class="off-canvas-wrap">
-  <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
+<%= render partial: 'photos/slide_show', locals: { photos: @photos } %>
 
-      <section class="middle tab-bar-section">
-        <h1 class="title">LookBook</h1>
-      </section>
-
-    </nav>
-
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <% @photos[1..-1].each do |photo| %>
-          <li><a class='th' data-orbit-link="<%= "slide-#{photo.id}" %>"><%= image_tag photo.thumbnail_url %></a></li>
-        <% end %>
-      </ul>
-    </aside>
-    <section class="main-section">
-
-      <div class='row'>
-        <div class='large-8 columns'>
-          <ul data-orbit>
-            <% @photos.each do |photo| %>
-              <li data-orbit-slide="<%="slide-#{photo.id}" %>">
-              <div class='slide'><%= image_tag photo.standard_resolution_url, width: 612, height: 612 %>
-            </div>
-            </li>
-          <% end %>
-          <ul/>
-          </div>
-        </div>
-      </section>
-      <a class="exit-off-canvas"></a>
-    </div>
-  </div>
-
+<div class='scroll-x tiles'>
+  <% @photos[1..-1].each do |photo| %>
+    <a class='th' data-orbit-link="<%= "slide-#{photo.id}" %>">
+      <%= image_tag photo.thumbnail_url %>
+    </a>
+  <% end %>
+<div>
